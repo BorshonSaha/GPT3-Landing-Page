@@ -1,0 +1,86 @@
+.gpt3__possibility {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gpt3__possibility_left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.gpt3__possibility_right {
+  flex: 1;
+}
+
+.gpt3__possibility_left img {
+  width: 100%;
+  height: 100%;
+}
+
+.gpt3__possibility_right h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #71e5ff;
+}
+
+.gpt3__possibility_right h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  /* or 132% */
+
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%), #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 1rem 0;
+}
+
+.gpt3__possibility_right p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  color: #81afdd;
+  margin-bottom: 2rem;
+}
+
+.gpt3__possibility_right h4:last-child {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  color: #ff8a71;
+}
+
+@media screen and (max-width: 950px) {
+  .gpt3__possibility {
+    flex-direction: column;
+  }
+
+  .gpt3__possibility_left img {
+    margin: 1rem 0;
+  }
+
+  .gpt3__possibility_right {
+    margin-top: 2rem;
+  }
+}
